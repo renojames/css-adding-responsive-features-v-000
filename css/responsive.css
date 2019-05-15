@@ -11,3 +11,18 @@
     right: 4px;
   }
 }
+
+@@media screen and (max-width: 900px) {
+  body {
+    font-size: 85%;
+  }
+
+  h1#logo {
+    height: 35px;
+    width: 35px;
+  }
+
+  h2#logo {
+    font-size: 2.2em;
+  }
+}
